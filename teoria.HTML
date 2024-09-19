@@ -25,7 +25,7 @@
     </style>
     <title>Document</title>
 </head>
-<body style ="background-color: rgb(111, 20, 185); ">
+<body style ="background-color: rgb(136, 50, 255); ">
 
 
     <h1>desenvolvimento de sistema</h1>
@@ -92,12 +92,942 @@
         <dd>LINGUAGEM DE MARCAÇÃO PARA CONTEUDO DE UM  SITE </dd>
         <dt>LINGUAGEM DE PROGRAMAÇÃO</dt>
 
-    
+    <!-- Trabalhando com tabelas -->
+    <br>
+    <hr>
+    <!-- cria uma nova tabela -->
+    <table border="1">
+        <!--tr cria uma nova linha-->
+        <tr>
+            <!-- th insere uma celula de Cabeçalho -->
+             <th>Nome</th>
+             <th>Idade</th>
+             <th>Profissão</th>
+        </tr>
+        <tr>
+            <!-- td cria uma nova celula de dados -->
+             <td>Douglas</td>
+             <td>32</td>
+             <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Ricardo</td>
+            <td>33</td>
+            <td>Professor</td>
+        </tr>
+    </table>
+<br>
+    <table class="tabela">
+        <!-- tag semantica de cabeçalho -->
+        <thead>
+            <tr class="">
+                <th class="cabecalho cabecalho2">Nome</th>
+                <th class="cabecalho cabecalho3">Telefone</th>
+                <th class="cabecalho cabecalho2">Cidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="celula">Jose da Silva</td>
+                <td class="celula">2345678</td>
+                <td class="celula">Andradina</td>
+            </tr>
+            <tr>
+                <td class="celula">Maria da Silva</td>
+                <td class="celula">2345678</td>
+                <td class="celula">Andradina</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- aplicando colspan e rowspan
+      -->
+
+    <table border="1">
+        <tr>
+            <th>Nome</th>
+            <th colspan="2" >Telefone</th>
+        </tr>
+        <tr>
+            <td>Ricardo</td>
+            <td>89892812</td>
+            <td>87817287</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Joaquim</td>
+            <td>123434</td>
+            <td>121212</td>
+        </tr>
+        <tr>
+            <td>232323</td>
+            <td>232323</td>
+        </tr>
+    </table>
     
     
     
     </body>
 
+<p>Trabalhando com Formulários</p>
+<form class="formulario">
+    <label> nome </label>
+       
+<input type="text"><br>
+<input type="sobrenome"><br>
+<input type="text" class="input-nome">
+<input type="password" placeholder="digite a senha">
+<input type="button" value="Clique aqui " class="botao">
+<br><input type="'checkbox" class="checar"> Eu tenho um BIKE<br>
+<input type="'checkbox" class="checar"> Eu tenho uma MOTO<br>
+<input type="'checkbox" class="checar"> Eu tenho um CARRO<br>
+<input type="color" value="#000000">
+<br><label>data de nascimento </label>
+<input type="date" name="" id="">
+<input type="datetime-local" name="" id="">
+<input type="email" placeholder="digite seu email">
+<input type="file">
+<select>
+    <option value="" selected>selecione a escolaridade</option>
+    <option value="primeiro colegial">1° medio</option>
+    <option value="primeiro colegial">2° medio</option>
+    <option value="primeiro colegial">3° medio</option>
+    
+        </select>
+    
+      <p>radio button</p>
+        <input type="radio" name=""checked>Pequeno
+        <input type="radio" name="">Medio
+        <input type="radio" name="">Grande
 
 
-        </html>
+
+    <br>
+       <p>radio button</p> 
+       <input type="radio" name="tamanho" class="radio">Pequeno
+       <input type="radio" name="tamanho" class="radio"checked>Medio
+       <input type="radio" name="tamanho" class="radio">Grande
+
+
+       <fieldset>
+        <legend>Descrição</legend>
+        <textarea name="" id=""></textarea>
+             
+    </fieldset>
+        
+ botão de enviar
+
+ <input type="submit" value="enviar">
+ <input type="submit" value="Limpar">
+</form>
+    <body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
