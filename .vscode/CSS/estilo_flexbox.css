@@ -1,0 +1,21 @@
+.div1{
+    background-color: chartreuse;
+}
+.div2{
+    background-color: rgb(240, 0, 192);
+}
+.div3{
+    background-color: chartreuse;
+}
+.conteiner{
+    border: 2px solid black;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.item{
+    background-color: rgb(179, 98, 255);
+    margin: 5px;
+    text-align:center;
+    display:flex;
+    color: aliceblue
+}
