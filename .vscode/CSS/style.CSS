@@ -1,230 +1,315 @@
 CSS  Inserir no style.css
+    /* Seletor universal */
+    * {
+        margin: 0;
+    }
+    /* Seletor de tipo, aplicando em uma tag */
+    p{
+        color: rgb(118, 241, 10);
+    }
 
-        /* Seletor universal */
-        * {
-            margin: 0;
-        }
-        /* Seletor de tipo, aplicando em uma tag */
-        p{
-            color: rgb(118, 241, 10);
-        }
+    /* Seletor de classe */
+    .paragrafo{
+        background-color: chocolate;
+        /* margin: 10px; - Aplica em todas as margens*/
+        /* margin: 10px 40px; - Aplica nas margens 'Laterais' e 'superior e inferior' */
+        /*margin: 10px 20px 30px 40px;aplica margem  top, right, bottom, left*/
+        /* margin-left: 10px; */
+        /* alinha elementos ao centro */
+        text-align: center;
+    }
 
-        /* Seletor de classe */
-        .paragrafo{
-            background-color: chocolate;
-            /* margin: 10px; - Aplica em todas as margens*/
-            /* margin: 10px 40px; - Aplica nas margens 'Laterais' e 'superior e inferior' */
-            /*margin: 10px 20px 30px 40px;aplica margem  top, right, bottom, left*/
-            /* margin-left: 10px; */
-            /* alinha elementos ao centro */
-            text-align: center;
-        }
-
-        .imagem {
-            width: 150px;
-            height: 100px;
-
-    /* background-color: aquamarine; */
+    .imagem {
+        width: 150px;
+        height: 100px;
+    }
+/* background-color: aquamarine; */
+background-color: #666666;
+.100% {
+    opacity: 1;
+    transform: translateY(0px);
 }
-
-.tabela{
-    /* remover os espaços entre as bordas */
+/* Tipografia */
+.body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .h1, h2, h3 {
+    font-weight: bold;
+  }
+  
+  /* Cores */
+  :root {
+    --cor-primaria: #333;
+    --cor-secundaria: #666;
+  }
+  
+  .cor-primaria {
+    background-color: var(--cor-primaria);
+  }
+  
+  .cor-secundaria {
+    background-color: var(--cor-secundaria);
+  }
+  
+  /* Layout */
+  .conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .item {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+  }
+  /* Seletor universal */
+* {
+    margin: 0;
+  }
+  
+  /* Seletor de tipo, aplicando em uma tag */
+  p {
+    color: rgb(118, 241, 10);
+  }
+  
+  /* Seletor de classe */
+  .paragrafo {
+    background-color: chocolate;
+    text-align: center;
+  }
+  
+  /* Seletor de classe */
+  .imagem {
+    width: 150px;
+    height: 100px;
+  }
+  
+  /* Seletor de classe */
+  .tabela {
     border-collapse: collapse;
     width: 100%;
-}
-.cabecalho, .celula{
-    /* configura o formato da borda
-    Expessura, tipo e cor */
-    border: 2px solid #4a3f3f;
-    /* define o espamento interno */
+  }
+  
+  /* Seletor de classe */
+  .cabecalho, .celula {
+    border: 2px solid #ff0000;
     padding: 10px;
     text-align: left;
     color: black;
-}
-.th-cabecalho2{
-    background-color: #52b7f1;
-}
-.cabecalho3{
+  }
+  
+  /* Seletor de classe */
+  .th-cabecalho2 {
+    background-color: #000000;
+  }
+  
+  /* Seletor de classe */
+  .cabecalho3 {
     background-color: #f16252;
-}
-
-.titulo{
+  }
+  
+  /* Seletor de classe */
+  .titulo {
     text-align: center;
     background-color: #e4ad06;
     color: white;
-}
-.alinhar{
+  }
+  
+  /* Seletor de classe */
+  .alinhar {
     text-align: center;
-}
-.tabel{
+  }
+  
+  /* Seletor de classe */
+  .tabela {
     width: 80%;
     margin: 0 auto;
-}
-.th-brasileiro{
-   
+  }
+  
+  /* Seletor de classe */
+  .th-brasileiro {
     background-color: #666666;
-}
-
-.linha-br{
+  }
+  
+  /* Seletor de classe */
+  .linha-br {
     background-color: #36f40be7;
-}
-
-.linha-br2{
+  }
+  
+  /* Seletor de classe */
+  .linha-br2 {
     background-color: #dbf20ee7;
-}
-.Formulario{
+  }
+  
+  /* Seletor de classe */.
+  .Formulario {
     background-color: #52b7f1;
-}
-.input-nome{
-    border: none
-    border radius  5px
-    margin-left  50px; 
+  }
+  
+  /* Seletor de classe */
+  .input-nome {
+    border: none;
+    border-radius: 5px;
+    margin-left: 50px;
     opacity: 70;
- }
-.botao{
-  background-color: brown;  
-border: none;
-border-radius: 5px; 
-padding: 6px;
-font-size: medium;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-text-shadow:10px 1px 4px rgba(104, 56, 215), rgb(216, 107, 191);
-
-}
- checar{
-width: 20px;
-height: 20px;
-margin-left:5px ;
-cursor: pointer;
-appearance: none;
-background-color: azure;
-border: #f16252;
-border-radius: 5px;
-}
-.checar:checked{
-    background-color: #4caf50;
-}
-
-.email{
-    width: 300px
-    padding: 5px 5px;
-    margin-left: 5px;
-    border: 2px solid white;
-}
-
-.selecao{
-    appearance: none;
-    width: 300px;
-    padding: 4px;
-    font-size: 16px;
-    color: #4a3f3f;
-    background-color:white;
-    border: 2px solid white
-    border-radius: 5px
-    cursor: pointer
-    box-shadow: 0 2px 5px rgba(0,0,0,0.8)
-
-} 
-
-.radio{
-    appearance: none;
+  }
+  
+  /* Seletor de classe */
+  .botao {
+    background-color: brown;
+    border
+  }
+   .checar{
     width: 20px;
     height: 20px;
-    border: 2px solid #d3421d;
-    border-radius: 50%;
+    margin-left:5px ;
     cursor: pointer;
-
-}
-.radio:checked{
-    background-color: crimson;
-    border-color: #4caf50;
-
-
-}
-
-body {
-    font-family: sans-serif;
-    background-color: #81d4fa;
-    font-weight: bold;
-}
-
-.text-box {
-    margin-left: 44vw;
-   margin-top: 42vh;
-}
-
-.btn:link,
-.btn:visited {
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 15px 40px;
-    display: inline-block;
-    border-radius: 100px;
-    transition: all .2s;
-    position: absolute;
-}
-
-.btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.btn:active {
-    transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.btn-white {
-    background-color: #fff;
-    color: #777;
-}
-
-.btn::after {
-    content: "";
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-radius: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: all .4s;
-}
-
-.btn-white::after {
-    background-color: #fff;
-}
-
-.btn:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
-}
-
-.btn-animated {
-    animation: moveInBottom 5s ease-out;
-    animation-fill-mode: backwards;
-}
-
-@keyframes moveInBottom {
-    0% {
+    appearance: none;
+    background-color: azure;
+    border: #f16252;
+    border-radius: 5px;
+    }
+    .checar:checked{
+        background-color: #4caf50;
+    }
+    
+    .email{
+        width: 300px
+        padding: 5px 5px;
+        margin-left: 5px;
+        border: 2px solid white;
+    }
+    .selecao{
+        appearance: none;
+        width: 300px;
+        padding: 4px;
+        font-size: 16px;
+        color: #4a3f3f;
+        background-color:white;
+        border: 2px solid white
+        border-radius: 5px
+        cursor: pointer
+        box-shadow: 0 2px 5px rgba(0,0,0,0.8)
+    
+    } 
+    
+    .radio{
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #d3421d;
+        border-radius: 50%;
+        cursor: pointer;
+    
+    }
+    .radio:checked{
+        background-color: crimson;
+        border-color: #4caf50;
+    
+    
+    }
+    
+    .body {
+        font-family: sans-serif;
+        background-color: #81d4fa;
+        font-weight: bold;
+    }
+    
+    .text-box {
+        margin-left: 44vw;
+       margin-top: 42vh;
+    }
+    
+    .btn:link,
+    .btn:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 15px 40px;
+        display: inline-block;
+        border-radius: 100px;
+        transition: all .2s;
+        position: absolute;
+    }
+    
+    .btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    .btn:active {
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .btn-white {
+        background-color: #fff;
+        color: #777;
+    }
+    
+    .btn::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 100px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+    }
+    
+    .btn-white::after {
+        background-color: #fff;
+    }
+    
+    .btn:hover::after {
+        transform: scaleX(1.4) scaleY(1.6);
         opacity: 0;
-        transform: translateY(30px);
     }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
+    
+    .btn-animated {
+        animation: moveInBottom 5s ease-out;
+        animation-fill-mode: backwards;
     }
-}
-.elemento-pai {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .elemento-filho {
-    /* nothing */
-  }
-
-  
+    
+    @keyframes moveInBottom {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+    }
+    .alinhar-direita {
+        display: flex;
+        justify-content: flex-end;
+      }
+      
+      .alinhar-esquerda {
+        display: flex;
+        justify-content: flex-start;
+      }
+      
+      .alinhar-Centro {
+        display: flex;
+        justify-content: center;
+      }
+      
+      .alinhar-entre {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .secao {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .secao-imagem {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        object-fit: cover;
+      }
