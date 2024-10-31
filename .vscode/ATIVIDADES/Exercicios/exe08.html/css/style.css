@@ -1,0 +1,43 @@
+body {
+    background-color: #f8f9fa; /* Fundo claro */
+}
+
+.navbar {
+    background-color: #6c757d; /* Cor da navbar */
+    color: white;
+}
+
+.card {
+    border: none; /* Remove a borda padrão do card */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para o card */
+    transition: transform 0.3s; /* Efeito de transição suave */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Levanta o card ao passar o mouse */
+}
+
+.card-img-top {
+    border-top-left-radius: 10px; /* Arredondar os cantos superiores */
+    border-top-right-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.25rem; /* Tamanho da fonte do título */
+    font-weight: bold; /* Negrito para o título */
+}
+
+.card-text {
+    color: #6c757d; /* Cor do texto */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Cor do botão */
+    border-color: #007bff; /* Borda do botão */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+    border-color: #0056b3; /* Borda do botão ao passar o mouse */
+}
